@@ -1,5 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
     cacheComponents: true,
     cacheLife: { //Override the default profile and create your custom profile here.
         medium_short: { //Custom profile. 'medium_short' is the user-defined name.
